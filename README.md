@@ -1,7 +1,7 @@
 # WebRTC_practice
 WebRTC practice through SimpleWebRTC open source version
 
-## License
+### License
 License is the same as the SimpleWebRTC open source's license
 
 ### About signaling server

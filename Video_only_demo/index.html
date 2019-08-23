@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SimpleWebRTC practice</title>
+</head>
+
+<body>
+    <h1 id="title">Allow camera for video</h1>
+    <style>
+        .videoContainer {
+            position: relative;
+            width: 200px;
+            height: 150px;
+        }
+
+        .videoContainer video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <div class="videoContainer">
+        <video id="localVideo" style="height: 150px;" oncontextmenu="return false;"></video>
+    </div>
+    <div id="remotes"></div>
+    <script src="../lib/simplewebrtc-with-adapter.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
